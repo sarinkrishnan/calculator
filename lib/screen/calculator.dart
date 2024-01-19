@@ -120,10 +120,10 @@ class _CalculatorBodyState extends State<CalculatorBody> {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Container(
-                height: screenHeight / 3,
+                height: screenHeight / 200,
                 width: screenWidth,
                 child: Padding(
-                  padding: const EdgeInsets.only(right: 25),
+                  padding: const EdgeInsets.only(right: 2),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
@@ -217,7 +217,9 @@ class _CalculatorBodyState extends State<CalculatorBody> {
           ),
         ),
         Positioned(
-          top: size * 25,
+          // bottom: 150,
+          
+          top: size * 24,
           right: -10,
           child: PopupMenuButton(
             shape: RoundedRectangleBorder(
